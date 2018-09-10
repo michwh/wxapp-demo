@@ -1,0 +1,13 @@
+<!--components/v-picker-multiSelector/v-picker-multiSelector.wxml-->
+<view class="section">
+    <view class="section__title">{{title}}</view>
+    <picker bindchange="bindPickerChange" value="{{multiIndex}}" range="{{multiArray}}" mode="multiSelector" bindcolumnchange="columnchange">
+      <view class="picker">  
+      <view class='words'>
+        <!-- {{multiArray[2][multiIndex[2]]}} -->
+        {{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+      </view>
+      <image src='/image/right.png'></image>  
+    </view> 
+    </picker>
+  </view>

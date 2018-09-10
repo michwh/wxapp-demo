@@ -1,0 +1,12 @@
+<!--pages/recordInfo/recordInfo.wxml-->
+<view class='page'>
+  <v-picker-selector options="{{operateOptions}}" title="{{operateOptionsTitle}}" bind:optionsValue="receiveOperateOptionsValue"></v-picker-selector>
+
+  <plantingAreaRecord wx:if="{{plantingAreaRecord}}"></plantingAreaRecord>
+
+  <formulaRecord wx:if="{{formulaRecord}}"></formulaRecord>
+
+  <productionDataRecord wx:if="{{productionDataRecord}}"></productionDataRecord>
+
+  <prescriptionCreate wx:if="{{prescriptionCreate}}"></prescriptionCreate>
+</view>

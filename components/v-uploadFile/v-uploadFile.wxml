@@ -1,0 +1,6 @@
+<!--components/v-uploadFile/v-uploadFile.wxml-->
+<view class="section">
+    <view class="section__title">{{title}}</view>
+    <button class='upload'>选择文件</button>
+    <view class='file-name'>{{placeholder}}</view>
+  </view>

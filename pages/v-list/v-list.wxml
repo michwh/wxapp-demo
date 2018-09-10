@@ -1,0 +1,3 @@
+<!--pages/v-list/v-list.wxml-->
+
+<v-list info="{{info}}"></v-list>

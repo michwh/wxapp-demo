@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-picker-region": "/components/v-picker-region/v-picker-region",
+    "v-text": "/components/v-text/v-text",
+    "v-textarea":"/components/v-textarea/v-textarea"
+  }
+}

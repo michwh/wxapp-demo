@@ -1,0 +1,18 @@
+<!--components/v-list/v-list.wxml-->
+
+<view class="but" wx:for="{{info}}">
+    <view class="title">
+      {{item.title}}
+    </view>
+    <view class='middle'>
+      <text class='length'>
+        {{item.length}}
+      </text>
+      <text class='time'>
+        {{item.time}}
+      </text>
+    </view>
+    <view class='size'>
+      {{item.size}}
+    </view>
+  </view>

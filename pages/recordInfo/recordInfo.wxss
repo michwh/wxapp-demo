@@ -1,0 +1,4 @@
+/* pages/recordInfo/recordInfo.wxss */
+v-picker-selector{
+  /* width: 80%; */
+}

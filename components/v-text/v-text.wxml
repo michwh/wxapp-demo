@@ -1,0 +1,6 @@
+<!--components/v-text/v-text.wxml-->
+<view class="section">
+    <view class="section__title">{{title}}</view>
+      <!-- <view class="picker"></view> -->
+      <input placeholder="{{placeholder}}" class="picker" bindinput="inputChange" value="{{value}}"/>
+</view>

@@ -1,0 +1,4 @@
+<!--components/v-modal/v-modal.wxml-->
+<modal title="{{ title }}" confirm-text="确认" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="modalConfirm" bindcancel="modalCancle">
+            <v-input bind:textinputed="receiveInputValue"></v-input>
+  </modal>

@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-picker-selector": "/components/v-picker-selector/v-picker-selector",
+    "v-text": "/components/v-text/v-text",
+    "v-picker-multiSelector": "/components/v-picker-multiSelector/v-picker-multiSelector",
+    "v-uploadFile": "/components/v-uploadFile/v-uploadFile"
+  }
+}

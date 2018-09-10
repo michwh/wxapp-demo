@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "v-picker-selector": "/components/v-picker-selector/v-picker-selector",
+    "plantingAreaRecord": "/components/plantingAreaRecord/plantingAreaRecord",
+    "formulaRecord": "/components/formulaRecord/formulaRecord",
+    "productionDataRecord": "/components/productionDataRecord/productionDataRecord",
+    "prescriptionCreate": "/components/prescriptionCreate/prescriptionCreate"
+  }
+}

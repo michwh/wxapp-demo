@@ -1,0 +1,30 @@
+/* components/v-uploadFile/v-uploadFile.wxss */
+.section{
+  width: 85%;
+   height: 60px; 
+  margin: 0 auto;
+  margin-top: 5px;
+  /* border: 1px solid black; */
+}
+.section__title{
+  font-size: 13px;
+}
+.upload{
+  width: 70px;
+  /* margin-top: 25px; */
+  background-color:  #e8e8e8;
+  color: #000000;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  float: left;
+  margin-top: 5px;
+   padding-left: 2px;
+  padding-right: 2px;
+}
+.file-name{
+  margin-left: 5px;
+  font-size: 12px;
+  margin-top: 12px;
+  float: left;
+}

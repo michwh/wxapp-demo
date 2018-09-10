@@ -1,0 +1,11 @@
+<!--components/formulaRecord/formulaRecord.wxml-->
+<view  class='composite-component'>
+  <v-picker-multiSelector multiArray="{{multiArray}}" multiIndex="{{multiIndex}}" title="{{title1}}" bind:multiSelectorValue="receiveMultiSelectorValue" bind:multiSelectorColumn="receiveMultiSelectorColumn"></v-picker-multiSelector>
+
+  <v-picker-selector title="{{title2}}" options="{{options2}}" bind:optionsValue="receiveRiceVariety"></v-picker-selector>
+  <v-picker-selector title="{{title3}}" options="{{options3}}" bind:optionsValue="receiveGrowingSeason"></v-picker-selector>
+  <v-picker-selector title="{{title4}}" options="{{options4}}" bind:optionsValue="receiveFertilizationNode"></v-picker-selector>
+  <v-text title="{{title5}}" placeholder="{{placeholder1}}" bind:textValue="receiveFormulaName" value="{{FormulaName}}"></v-text>
+  <v-text title="{{title6}}" placeholder="{{placeholder2}}" bind:textValue="receiveFormulaExpression" value="{{FormulaExpression}}"></v-text>
+  <button bindtap="submit">提交</button>
+</view>

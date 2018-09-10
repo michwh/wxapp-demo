@@ -1,0 +1,10 @@
+<!--components/v-picker-selector/v-picker-selector.wxml-->
+<view class="section">
+    <view class="section__title">{{title}}</view>
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{options}}">
+      <view class="picker">
+        <p>{{options[index]}}</p>
+        <image src='/image/right.png'></image>
+      </view>
+    </picker>
+  </view>

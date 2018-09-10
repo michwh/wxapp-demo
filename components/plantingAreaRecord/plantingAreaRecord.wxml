@@ -1,0 +1,7 @@
+<!--components/plantingAreaRecord/plantingAreaRecord.wxml-->
+<view class='composite-component'>
+  <v-picker-region title="{{title1}}" bind:regionValue="receiveRegionValue"></v-picker-region>
+  <v-text title="{{title2}}" placeholder="{{placeholder1}}" bind:textValue="receiveTextValue" value="{{plantingAreaName}}"></v-text>
+  <v-textarea placeholder="{{placeholder2}}" title="{{title3}}" value="{{plantingAreaIntroduction}}" bind:textareaValue="receiveTextareaValue"></v-textarea>
+  <button bindtap="submit">提交</button>
+</view>

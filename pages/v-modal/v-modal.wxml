@@ -1,0 +1,3 @@
+<!--pages/v-modal/v-modal.wxml-->
+<v-modal title="{{title}}" bind:modalValue="receiveModalValue"></v-modal>
+v-modal传过来的值：{{value}}

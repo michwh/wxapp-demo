@@ -1,0 +1,11 @@
+<!--components/productionDataRecord/productionDataRecord.wxml-->
+<view  class='composite-component'>
+  <v-picker-multiSelector multiArray="{{multiArray}}" multiIndex="{{multiIndex}}" title="{{title1}}" bind:multiSelectorValue="receiveMultiSelectorValue" bind:multiSelectorColumn="receiveMultiSelectorColumn"></v-picker-multiSelector>
+
+  <v-picker-selector title="{{title2}}" bind:optionsValue="receiveFieldBlock" options="{{options1}}"></v-picker-selector>
+  <v-text title="{{title3}}" placeholder="{{placeholder1}}" bind:textValue="receivePlantingDensity" value="{{plantingDensity}}"></v-text>
+  <v-text title="{{title4}}" placeholder="{{placeholder2}}" bind:textValue="receiveFertilizationAmount" value="{{fertilizationAmount}}"></v-text>
+  <v-text title="{{title5}}" placeholder="{{placeholder3}}" bind:textValue="receivePesticideDosage" value="{{PesticideDosage}}"></v-text>
+  <v-text title="{{title6}}" placeholder="{{placeholder4}}" bind:textValue="receiveOutput" value="{{output}}"></v-text>
+  <button bindtap="submit">提交</button>
+</view>

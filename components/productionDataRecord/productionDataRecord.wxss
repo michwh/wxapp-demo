@@ -1,0 +1,10 @@
+/* components/productionDataRecord/productionDataRecord.wxss */
+.composite-component{
+  margin-top: 20px;
+}
+button{
+  width: 85%;
+  margin-top: 25px;
+  background-color:  rgb(76, 175, 80);
+  color: #ffffff;
+}

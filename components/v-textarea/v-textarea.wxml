@@ -1,0 +1,6 @@
+<!--components/v-textarea/v-textarea.wxml-->
+<view class="section">
+    <view class="section__title">{{title}}</view>
+      <!-- <view class="picker"></view> -->
+      <textarea placeholder="{{placeholder}}" class="picker" value="{{value}}" bindinput="textareaChange"/>
+</view>

@@ -1,0 +1,9 @@
+<!--components/inputbox/inputbox.wxml-->
+<view class="md-input-container">
+    <label class="md-input-title" style="color: {{ titleColor }}">{{ title }}</label>
+    <input password="{{ password }}" class="md-input" bindfocus="onFocus" bindblur="onBlur" bindinput="onInput"/>
+    <view class="md-input-divider" style="background-color: {{ dividerColor }}">
+        <view class="md-input-subdivider" style="background-color: {{ subDividerColor }}" animation="{{ animationData }}"></view>
+    </view>
+    <label class="md-input-footer {{ footerClass }}" >{{ footer }}</label>
+</view>

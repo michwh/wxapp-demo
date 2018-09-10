@@ -1,0 +1,44 @@
+/* components/inputbox/inputbox.wxss */
+
+.md-input-container {
+    width: auto;
+    margin-top: 10%;
+}
+
+.md-input-title {
+    font-size: 14px;
+    text-align: left;
+}
+
+.md-input-footer {
+    font-size: 12px;
+    text-align: left;
+}
+
+.md-input {
+    height: 40px;
+}
+
+.md-input-divider {
+    height: 1px;
+}
+
+.md-input-subdivider {
+    width: 0%;
+    margin: auto;
+    height: 3px;
+}
+
+.footer-hidden {
+    visibility: hidden;
+}
+
+.footer-help {
+    visibility: visible;
+    color: gray;
+}
+
+.footer-error {
+    visibility: visible;
+    color: red;
+}

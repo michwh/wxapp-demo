@@ -1,23 +1,10 @@
 <!--index.wxml-->
 <view class="container">
 
-  <view class='v-list'>
-    <navigator url="/pages/v-list/v-list">
-      <text>v-list组件 ></text>
-    </navigator>
-  </view>
-
-  <view class='v-modal'>
-    <navigator url="/pages/v-modal/v-modal">
-      <text>v-modal组件 ></text>
-    </navigator>
-  </view>
-
   <view class='recordInfo'>
     <navigator url="/pages/recordInfo/recordInfo">
       <text>信息录入界面 ></text>
     </navigator>
   </view>
-
 
 </view>
